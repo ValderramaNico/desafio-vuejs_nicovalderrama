@@ -1,24 +1,14 @@
-# desafio-vuejs_nicovalderrama
+# Introducción a Componentes Web y Vue Js - Nicolás Valderrama
 
-## Project setup
-```
-npm install
-```
+1. Se crea una aplicación Vue Js con Vue CLI.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+2. Se crean variables en el estado.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![alt text](src/assets/utils/imagesREADME/code.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
+3. Se Interpolan variables del estado en el template.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+(Se muestra ejemplo de `Nombres` y `Apellidos`)
+
+![alt text](src/assets/utils/imagesREADME/code2.png)
+

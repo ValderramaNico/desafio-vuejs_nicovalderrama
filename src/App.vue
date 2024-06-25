@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CarnetElon msg="Carnet de Elon Musk" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CarnetElon from './components/CarnetElon.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CarnetElon
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 10px;
+  font-family: sans-serif;
 }
 </style>
